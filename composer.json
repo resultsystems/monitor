@@ -1,0 +1,31 @@
+{
+    "name": "resultsystems/monitor",
+    "description": "Monitor logs queries.log and laravel.log",
+    "keywords": ["monitor", "log", "laravel", "db"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro Henrique Reis",
+            "email": "emtudo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "5.5.*",
+        "symfony/process": "~3.3",
+        "symfony/console": "~3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "ResultSystems\\Monitor\\": "src/Monitor"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ResultSystems\\Monitor\\MonitorServiceProvider"
+            ]
+        }
+    }
+}
