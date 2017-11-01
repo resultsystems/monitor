@@ -4,7 +4,7 @@
 ### For Laravel 5.5
 
 ```shell
-composer require resultsystems/validation
+composer require resultsystems/monitor
 
 or 
 
