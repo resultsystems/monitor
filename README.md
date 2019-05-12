@@ -1,6 +1,8 @@
 # Monitor log queries and laravel.log
 ==========
 
+## Package bundled in view of the package: (https://github.com/laravel/telescope)[https://github.com/laravel/telescope] be much better and with many options.
+
 ### For Laravel 5.5-5.7
 
 ```shell
